@@ -1,0 +1,15 @@
+[package]
+name = "wyag"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.21", features = ["derive"] }
+
+[lib]
+name = "wyag"
+path = "src/lib.rs"
+
+[[bin]]
+name = "wyag"
+path = "src/bin.rs"
